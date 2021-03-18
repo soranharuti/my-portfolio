@@ -6,10 +6,10 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg ">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Soran Haruti
+          SORAN HARUTI
         </a>
         <button
           className="navbar-toggler"
@@ -37,22 +37,18 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                services
+                Experience
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                projects
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                how work
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                contact us
+                contact
               </a>
             </li>
           </ul>
