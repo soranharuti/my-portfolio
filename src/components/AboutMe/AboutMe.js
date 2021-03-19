@@ -23,6 +23,9 @@ const AboutMe = () => {
             GIT, VERSION CONTROL, GITHUB, NODE.JS, WEB SERVICES API, DOM,
             EXPRESS.JS, MONGODB, MYSQL, EXPO, HEROKU, AGILE METHODOLOGIES
           </p>
+          <h4 className="about-skills">Education</h4>
+          <p>Diploma in Web Development - 2020 | BrainStation - Canada</p>
+          <p>BSc in Engineering - 2014 | University of Kurdistan - Hawler</p>
         </div>
       </div>
     </div>

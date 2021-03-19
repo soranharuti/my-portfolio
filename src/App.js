@@ -4,6 +4,7 @@ import Particles from "react-particles-js";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
               },
             },
             shape: {
-              type: "square",
+              type: "circle",
               stroke: {
                 width: 6,
                 color: "#eb1c1c",
@@ -31,6 +32,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
+      <Experience />
     </>
   );
 }
