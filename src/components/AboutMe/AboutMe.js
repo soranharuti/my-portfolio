@@ -3,7 +3,7 @@ import MyPic from "../../assets/MyPic.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="aboutme-container py-5">
+    <div id="about" className="aboutme-container py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           <div className="photo-wrap mb-5">

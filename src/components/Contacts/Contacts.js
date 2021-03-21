@@ -36,7 +36,7 @@ const Contacts = () => {
   };
 
   return (
-    <div className="contacts">
+    <div id="contacts" className="contacts">
       <div className="text-center">
         <h1>contact me</h1>
         <p>Please fill out the form below</p>
@@ -135,7 +135,7 @@ const Contacts = () => {
                   placeholder="Description..."
                   name="description"
                   ref={register({
-                    required: "Please enter you description",
+                    required: "Please enter your description",
                   })}
                 ></textarea>
                 <div className="contacts-line"></div>

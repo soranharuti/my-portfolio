@@ -54,7 +54,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
+.navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-red);
 }
 
@@ -402,9 +402,21 @@ nav ul li {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .contacts h1 {
+    font-size: 1.1rem;
+  }
+}
+
 .contacts p {
   color: #000000;
   font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .contacts p {
+    font-size: 0.8rem;
+  }
 }
 
 /*Contact Inputs*/
@@ -488,4 +500,34 @@ textarea:focus + .contacts-line {
 
 .row {
   margin: 0 !important;
+}
+
+/*Footer*/
+.footer {
+  background: #000000;
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-red);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 430px) {
+  .col {
+    padding-left: 0 !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
 }

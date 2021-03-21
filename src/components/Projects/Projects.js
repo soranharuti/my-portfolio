@@ -9,7 +9,7 @@ import Project5 from "../../assets/project-5.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 //React Popupbox
-import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
+import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Projects = () => {
@@ -26,7 +26,7 @@ const Projects = () => {
           Fully Responsive Website, built with React.js and styled with
           components-style and SASS
         </p>
-        <b>Demo:</b>
+        <b>Demo: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -36,10 +36,10 @@ const Projects = () => {
             )
           }
         >
-          https://soranharuti.github.io/mywebsite-project/
+          Click To Visit
         </a>{" "}
         <br />
-        <b>GitHub:</b>
+        <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -49,7 +49,7 @@ const Projects = () => {
             )
           }
         >
-          https://github.com/soranharuti/mywebsite-project
+          Click To Visit
         </a>
       </>
     );
@@ -79,7 +79,7 @@ const Projects = () => {
           React API Project - Currency Finance Price Tracker App Using Hooks and
           Axios
         </p>
-        <b>Demo:</b>
+        <b>Demo: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -89,10 +89,10 @@ const Projects = () => {
             )
           }
         >
-          https://www.loom.com/share/c71c15ab61fc419086d6079b46388696
+          Click To Visit
         </a>
         <br />
-        <b>GitHub:</b>
+        <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -102,7 +102,7 @@ const Projects = () => {
             )
           }
         >
-          https://github.com/soranharuti/currency-tracker
+          Click To Visit
         </a>
       </>
     );
@@ -134,7 +134,7 @@ const Projects = () => {
           css3 and the back end was developed using node js, mongo db and api
           auth with jwt
         </p>
-        <b>Demo:</b>
+        <b>Demo: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -144,10 +144,10 @@ const Projects = () => {
             )
           }
         >
-          https://www.loom.com/share/f0235cd6b40f4d6192467898b1615298
+          Click To Visit
         </a>
         <br />
-        <b>GitHub:</b>
+        <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -157,7 +157,7 @@ const Projects = () => {
             )
           }
         >
-          https://github.com/soranharuti/capstone-projet
+          Click To Visit
         </a>
       </>
     );
@@ -187,24 +187,24 @@ const Projects = () => {
           My first portfolio built as resposive Website, using HTML5, CSS 3, and
           Vanilla JavaScript.
         </p>
-        <b>Demo:</b>
+        <b>Demo: </b>
         <a
           className="hyper-link"
           onClick={() =>
             window.open("https://soranharuti.github.io/soranharuti/", "_blacnk")
           }
         >
-          https://soranharuti.github.io/soranharuti/
+          Click To Visit
         </a>
         <br />
-        <b>GitHub:</b>
+        <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
             window.open("https://github.com/soranharuti/soranharuti", "_blacnk")
           }
         >
-          https://github.com/soranharuti/soranharuti
+          Click To Visit
         </a>
       </>
     );
@@ -234,7 +234,7 @@ const Projects = () => {
           Student List API project built with React JS, where you can filter and
           search for specific student, and check, add and edit their grades.
         </p>
-        <b>Demo:</b>
+        <b>Demo: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -244,10 +244,10 @@ const Projects = () => {
             )
           }
         >
-          https://www.loom.com/share/f6573f5ef3fb4b5eb72af54311a63640
+          Click To Visit
         </a>
         <br />
-        <b>GitHub:</b>
+        <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -257,7 +257,7 @@ const Projects = () => {
             )
           }
         >
-          https://github.com/soranharuti/Students-Api
+          Click To Visit
         </a>
       </>
     );
@@ -275,7 +275,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects-wrapper">
+    <div id="projects" className="projects-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">projects</h1>
         <div className="img-box-wrapper row justify-content-center">
@@ -314,7 +314,6 @@ const Projects = () => {
           {/* - */}
 
           <div className="projects-image-box" onClick={openPopuoboxProject4}>
-            >
             <img
               className="projects-image"
               src={Project4}
