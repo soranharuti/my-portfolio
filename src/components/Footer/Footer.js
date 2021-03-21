@@ -74,6 +74,7 @@ const Footer = () => {
                 url={"https://soranharuti.github.io/my-portfolio/"}
                 quote={"Soran Haruti | Frontend Developer"}
                 // hashtag="#TestHash1 #TestHash1"
+            
               >
                 <LinkedinIcon className="mx-3" size={36} />
               </LinkedinShareButton>
