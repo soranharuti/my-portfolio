@@ -9,7 +9,7 @@ import Project5 from "../../assets/project-5.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 //React Popupbox
-import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import "react-popupbox/dist/react-popupbox.css";
 
 const Projects = () => {
