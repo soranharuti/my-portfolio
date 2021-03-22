@@ -60,7 +60,6 @@ const Projects = () => {
   const popupboxConfigProject1 = {
     titleBar: {
       enable: true,
-      text: "My Website Project",
     },
     fadeIn: true,
     fadeIn: 500,
@@ -113,7 +112,6 @@ const Projects = () => {
   const popupboxConfigProject2 = {
     titleBar: {
       enable: true,
-      text: "Currency Tracker Project",
     },
     fadeIn: true,
     fadeIn: 500,
@@ -168,7 +166,6 @@ const Projects = () => {
   const popupboxConfigProject3 = {
     titleBar: {
       enable: true,
-      text: "Currency Tracker Project",
     },
     fadeIn: true,
     fadeIn: 500,
@@ -215,7 +212,6 @@ const Projects = () => {
   const popupboxConfigProject4 = {
     titleBar: {
       enable: true,
-      text: "Portfolio Project",
     },
     fadeIn: true,
     fadeIn: 500,
@@ -268,7 +264,6 @@ const Projects = () => {
   const popupboxConfigProject5 = {
     titleBar: {
       enable: true,
-      text: "Student List API project",
     },
     fadeIn: true,
     fadeIn: 500,

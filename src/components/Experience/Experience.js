@@ -10,7 +10,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2019 - Present</h3>
+            <h3>2018 - Present</h3>
             <h3>Frontend Developer - EasyTech Co.</h3>
             <p>
               ● Implement web design and development principles to build stable
